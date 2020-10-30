@@ -1,4 +1,3 @@
-# https://github.com/uBlockOrigin/uAssets/pull/3517
 const origFetch = window.fetch;
 window.fetch = (url, init, ...args) => {
 	if (typeof url === "string") {
